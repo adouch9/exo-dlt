@@ -1,15 +1,13 @@
-Lire le livre blanc: https://bitcoin.org/bitcoin.pdf, cherchez une version française si vous avez du mal avec l'anglais. (Mais dans ce cas vous risquez d'avoir du mal avec la Blockchain tout court).
+Question 1:
 
-Un arbre de merkle nécessite une paire de hashes pour produire un nouveau hash parent. Il faut donc a absolument que le nombre de transactions qui produiront le Merkle root soit pair.
-Comment est géré le cas ou le nombre de transactions dans le Block à valider est impair pour générer un Merlke root ?
 
-Dans le réseau bitcoin, Comment un nouveau noeud arrive t'il à retrouver ses pairs et ainsi rejoindre le réseau ? Expliquer le processus avec vos propres mots.
+Question 2:
 
-Pouvez vous nommer au moins une personne qui a ou aurait pu influencer directement ou indirectement la création de Bitcoin par ses travaux (une personne qui n'a pas été nommée dans le cours)?
+Soit vous possédez un noeud bitcoin complet ou que vous avez installé officiel Bitcoin Core alors dans ce cas vous êtes un noeud et vous communiquez 
+directement avec le réseau
+Les nœuds Bitcoin communiquent les uns avec les autres via le protocole de réseau Bitcoin P2P, ce qui garantit l'intégrité du système. Un nœud qui se comporte mal ou essaie de propager des informations incorrectes est rapidement reconnu par les nœuds honnêtes puis déconnecté du réseau.
 
-Avec vos propres recherches et grâce aux compétences acquises en cours pouvez vous expliquer comment une Blockchain crée un lien entre ses différents Blocks?
+Question 3:
 
-Quelle structure de données informatique peut représenter le mieux cette chaine de Block: https://en.wikipedia.org/wiki/List_of_data_structures ?
+Cynthia Dwork est l'un des chercheurs les plus reconnus au monde dans les domaines des systèmes distribués tolérants aux pannes et de la cryptographie forte. Ses études, en plus d'aider à lutter contre «Spam ", ont été au cœur de la création de Bitcoin plusieurs décennies plus tard.
 
-Si je souhaite modifier une transaction de 10 bitcoin que j'ai effectué il y a 6 mois en une transaction de 1 Bitcoin, que dois je modifier dans la Blockchain et que dois je mettre en oeuvre pour que cette modification persiste ?
-Est ce possible selon vous ?
